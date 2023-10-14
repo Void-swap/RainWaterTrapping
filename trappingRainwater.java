@@ -1,4 +1,4 @@
-//onne of IMPORTANT questions asked in interveiws 
+
 // draw a graph using given array 
 // now calculate the total amont trapped in it 
 // question might be jumbled with ACID TRAPPED or HOW MANY JUMPS REQUIRED TO RECH FROM A TO B
