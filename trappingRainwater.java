@@ -31,7 +31,8 @@ public class trappingRainwater {
         int totalwater = 0;
         for (int i = 0; i < n - 1; i++) {
             int waterlevel = Math.min(leftMax[i], rightMax[i]);
-            totalwater += waterlevel - array[i]; // MULTIPLY BY WIDTH IF GIVEN IN QUESTION or ARRAY GRAPH IS IRREGULAR IN SIZE
+            totalwater += waterlevel - array[i]; 
+            // MULTIPLY BY WIDTH IF GIVEN IN QUESTION or ARRAY GRAPH IS IRREGULAR IN SIZE
         }
 
         System.out.println(totalwater);
